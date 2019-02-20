@@ -1,0 +1,24 @@
+#intro {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+
+/*
+  This will select both of the article__header elements
+
+.article .article__header {
+    font-size: 1.85em;
+    line-height: 1.2em;
+    background-color: lightblue;
+}
+*/
+
+section ~ section {
+    margin: 20px 0 10px 0;
+    background-color: brown;
+}
